@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn init
+
+PATH: 
+  /home/x/manually_installed/git/depot_tools:/home/e/perl5/bin:/home/e/perl5/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/x/.local/bin/cron:/home/x/.local/bin/i3cmds/event-listener:/home/x/.local/bin/i3cmds/__pycache__:/home/x/.local/bin/i3cmds/.vim:/home/x/.local/bin/i3cmds/audio:/home/x/.local/bin/i3cmds:/home/x/.local/bin/statusbar:/home/x/.local/bin/helpers/global:/home/x/.local/bin/helpers:/home/x/.local/bin/crons/AutoDarkModeOn:/home/x/.local/bin/crons/__pycache__:/home/x/.local/bin/crons/.vim:/home/x/.local/bin/crons/LANDS FILES:/home/x/.local/bin/crons:/home/x/.local/bin/shortcut:/home/x/.local/bin/tools:/home/x/.local/bin/wrapper:/home/x/.local/bin/keyboard:/home/x/.local/bin/__pycache__:/home/x/.local/bin/:/home/x/.npm-packages/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
