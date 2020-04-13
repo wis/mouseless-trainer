@@ -1,0 +1,25 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  /* box-sizing: border-box !important; */
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  transition: background-color 0.001s cubic-bezier(0.26, 0.87, 0.28, 0.89);
+}
+button:hover,
+#button {
+  top: 0;
+  left: 0;
+  transition: 0.15s linear;
+  font-size: 1pt;
+  position: absolute;
+  background-color: blue;
+}
