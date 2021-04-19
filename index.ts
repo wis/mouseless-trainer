@@ -5,11 +5,13 @@ const { width, height } = window.screen;
 let tries = 0,
   hits = 0;
 const updateScore = () => document.title = `${hits} / ${tries}  (${tries === 0 ? 0 : Math.round(hits / tries * 100)}%)`;
+let cellWidth = width / LENGTH ** LENGTH;
+button.style.width = Math.max(18 - cellWidth, 0) + width / LENGTH ** LENGTH + "px";
+let cellHeight = height / LENGTH ** LENGTH;
+button.style.height = Math.max(18 - cellHeight, 0) + height / LENGTH ** LENGTH + "px";
 function draw() {
-  button.style.left = (Math.random() * width).toString() + "px";
-  button.style.top = (Math.random() * height).toString() + "px";
-  button.style.width = width / LENGTH ** LENGTH + "px";
-  button.style.height = height / LENGTH ** LENGTH + "px";
+  button.style.left = Math.round(Math.random() * width) + "px";
+  button.style.top = Math.round(Math.random() * height) + "px";
   updateScore();
 }
 draw();
