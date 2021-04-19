@@ -1,13 +1,13 @@
 {
-  "name": "training-home-row-magnet",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.1",
-    "typescript": "^3.8.3"
-  },
+  "name": "mouseless-trainer2",
+  "version": "0.0.0",
   "scripts": {
-    "start": "parcel serve index.html"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "vite": "^2.1.5"
   }
 }
